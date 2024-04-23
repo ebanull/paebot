@@ -1,3 +1,3 @@
-from .paebot import Paebot
+from paebot import Paebot
 
 __all__ = ["Paebot"]

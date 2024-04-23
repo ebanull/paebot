@@ -8,7 +8,7 @@ setup(
     url="https://github.com/ebanull/paebot",
     license="MIT",
     author="ebanull",
-    version="0.0.1",
+    version="0.1.0",
     packages=["paebot"],
     install_requires=["requests"],
 )
