@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="paebot",
@@ -8,7 +8,7 @@ setup(
     url="https://github.com/ebanull/paebot",
     license="MIT",
     author="ebanull",
-    version="0.1.0",
-    packages=["paebot"],
+    version="0.1.2",
+    packages=find_packages(),
     install_requires=["requests"],
 )
